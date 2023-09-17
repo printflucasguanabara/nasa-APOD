@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APOD NASA</title>
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+
+
+    <!-- header -->
+    <header class = "header fixed-navbar" id = "header">
+        </nav>
+
+        <div class = "banner">
+            <div class = "container">
+                <div class = "banner-text">
+                    <h1>Imagem Astronômica do Dia.</h1>
+                    <h4>Astronomy Picture of the Day (APOD)</h4>
+                    <p class = "text"><i>Descubra o cosmos!</i> Todos os dias, uma imagem ou fotografia diferente do nosso fascinante universo é apresentada.</p>
+                    <a href="https://api.nasa.gov/">Saiba mais sobre a API</a>
+                      
+                </div>
+
+                <div class = "banner-image">
+                    <img src = "images/header-img.png" alt = "banner image">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="img-arrow">
+            <img id="botao-arrow" src="images/PngItem_102317.png" alt="">
+        </div>
+            
+    </header>
+    <!-- final header -->
+
+  
+        
+    
+    <main>
+        <!-- principal -->
+        <section id = "principal" class = "py-5">
+            <div class = "section-heading">
+                <div class = "container">
+                    <h2></h2>
+                    <span class = "heading-lg">API de Imagem Astronômica Diária!</span>
+                    <p class = "text">Ao clicar no botão <b>Buscar Imagem</b> você será instantaneamente presenteado com uma imagem ou fotografia de nosso magnífico universo. Para uma qualidade superior, basta acionar o botão <b>Buscar imagem HD</b>!. Na caixa <b>"Data:"</b>, é possível inserir qualquer data e a imagem correspondente da data especificada será exibida.<BR><font color="red">ATENÇÃO: A data deve seguir o formato AAAA-MM-DD (Exemplo: 2023-09-16).</font></BR></p>
+                </div>
+            </div>
+
+
+<!-- cont principal-->
+  
+            <div class="">
+                <div class="details-container">
+                    <div class="title">
+                    
+                    </div>
+                    <div class="details">
+                        <div class="details-input">
+                            <span>Data:</span>
+                            <input type="text">
+                        </div>
+                        <button id="fetch-image">Buscar Imagem</button>
+                        <button id="fetch-hd">Buscar Imagem HD</button>
+                    </div>
+                </div>
+                <div class="image-container">
+        
+                </div>
+            </div>
+
+        </section>
+        
+    </main>
+
+    <!--footer-->
+    <footer class = "footer py-5">
+        <div class = "social-media">
+           <a href=""><img src="images/github-mark-white.png" alt=""></a>
+            <a href=""><img src="images/LINKEDIN.png" alt=""></a>
+        </div>
+    </footer>
+
+
+
+    <!-- js -->
+    <script src = "script.js"></script>
+</body>
+</html>
