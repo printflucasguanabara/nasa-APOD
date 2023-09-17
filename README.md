@@ -23,6 +23,10 @@ Astronomy Picture of the Day (APOD) é um serviço diário fornecido pela NASA q
 <li>É possível selecionar qualquer data e a imagem correspondente da data especificada será exibida.</li>
 <li>Busca de Imagem em HD!</li>
 
+# Resultado:
+
+https://github.com/printflucasguanabara/nasa-APOD/assets/110312548/a24bfd95-39e2-468f-a61b-ebc1fa2e83f6
+
 
 ## Créditos 
 NASA API: Este projeto utiliza a API pública da NASA para obter as imagens e descrições do APOD. API da NASA
