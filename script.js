@@ -66,7 +66,7 @@ botao.addEventListener('click', () => {
 
 
 
-// ABAIXO SALVANDO ALGUNS CODIGOS QUE DERAM CERTO, MAS NAO DA FORMA QUE EU QUERIA, DEIXAREI O COMENTARIO DELES AQUI PRA QUEM SABE USAR NO FUTURO!!!!
+// VOU UTILIZAR SCRIPTS  ABAIXO AINDA!!!!
 
 // ------------------------------------------------------------------------------------>
 
